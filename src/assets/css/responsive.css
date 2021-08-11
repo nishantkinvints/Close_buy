@@ -1,0 +1,714 @@
+@media screen and (min-width: 1280px) {
+    .container{
+        max-width: 1200px !important;
+        margin: 0 auto;
+    }
+}
+
+
+@media screen and (max-width: 1600px) {
+    /*********************  header CSS Start  *********************/
+    .closebuy_info_section h1{
+        font-size: 58px;
+    }
+    .subscribe_box input{
+        height: 60px;
+    }
+    .main-header{
+        padding: 15px 0;
+    }
+    .menu_inner li span{
+        font-size: 18px;
+    }
+    .right_mobile_img  img {
+        max-width: 340px;
+    }
+    .home_banner_section{
+        padding: 120px 0 15px
+    }
+    .right_mobile_img:after{
+        bottom: 175px;
+        left: -15px;
+    }
+    .right_mobile_img:before {
+        width: 180px;
+        height: 180px;
+        filter: drop-shadow(5px -5px 15px rgba(26, 229, 122, 0.47));
+        top: -15px;
+    }
+    .home_banner_section {
+        background-position: bottom;
+    }
+    .closebuy_info_section {
+        padding-top: 90px;
+    }
+    .right_mobile_section{
+        padding-right: 70px;
+    }
+    /*********************  header CSS End *********************/
+
+    /*********************  CloseBuy Section CSS Start  *********************/
+    .awsome_feature_section {
+        padding: 120px 0 120px;
+    }
+    .section_title h2{
+        font-size: 46px;
+    }
+    .awsome_info a{
+        font-size: 22px;
+    }
+    .awsome_feature_inner_section > p{
+        margin: 15px 0 40px;
+        line-height: 1.6;
+    }
+    .awsome_info p{
+        line-height: 1.6;
+    }
+    .awsome_secure_mobile_img{
+        text-align: center;
+    }
+    .awsome_secure_mobile_img img{
+        max-width: 330px;
+        margin: 0 auto;
+    }
+    .awsome_secure_mobile_img:after{
+        width: 180px;
+        height: 180px;
+    }
+    .awsome_secure_mobile_img:before{
+        width: 100px;
+        height: 100px;
+    }
+    .awsome_secure_date_section + .awsome_secure_date_section {
+        margin-top: 60px;
+    }
+    .footer_circle{
+        width: 90px;
+        height: 90px;
+        left: 90px;
+    }
+    /*********************  CloseBuy Section CSS End  *********************/
+
+    /*********************  Footer wrapper Section CSS Start  *********************/
+    .footer-wrapper{
+        padding: 190px 0 0;
+    }
+    .footer_heading h3{
+        font-size: 22px;
+    }
+    .footer_info ul {
+        padding: 25px 0 0;
+    }
+    .copy_right_section{
+        padding: 22px 0;
+    }
+    .socail_icon li a i{
+        font-size: 22px;
+    }
+    .insta_icon{
+        width: 22px;
+        height: 22px;
+        display: inline-block;
+        position: relative;
+        z-index: -1px;
+    }
+    .insta_icon svg{
+        width: 100%;
+        height: 100%;
+    }
+    /*********************  Footer wrapper Section CSS End *********************/
+}
+@media screen and (max-width: 1440px) {
+    /*********************  header CSS Start *********************/
+    .menu_inner li{
+        margin-right: 40px;
+    }
+    .closebuy_info_section h1 {
+        font-size: 52px;
+    }
+    .subscribe_box input {
+        height: 55px;
+    }
+    .subscribe_box {
+        max-width: 480px;
+    }
+    .closebuy_info_section p{
+        font-size: 15px;
+        margin: 10px 0 30px;
+    }
+    .sub_btn{
+        font-size: 16px;
+    }
+    .right_mobile_section {
+        padding-right: 120px;
+    }
+    .awsome_shadow{
+        max-width: 250px;
+    }
+    .awsome_feature_section {
+        padding: 100px 0 100px;
+    }
+    .awsome_info a {
+        font-size: 20px;
+    }
+    /*********************  header CSS End *********************/
+
+    /*********************  Footer wrapper Section CSS Start *********************/
+    .footer_heading h3 {
+        font-size: 20px;
+    }
+    /*********************  Footer wrapper Section CSS End *********************/
+
+}
+@media screen and (max-width: 1360px) {
+    .closebuy_info_section {
+        padding-top: 110px;
+    }
+}
+@media screen and (max-width: 1199px) {
+    /*********************  header CSS Start *********************/
+    .right_mobile_section {
+        padding-right: 60px;
+    }
+    .closebuy_info_section h1 {
+        font-size: 48px;
+    }
+    .subscribe_box input {
+        height: 50px;
+    }
+    .closebuy_info_section p{
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;  
+        overflow: hidden;
+    }
+    .right_mobile_img:before {
+        width: 160px;
+        height: 160px;
+    }
+    .menu-main a img{
+        max-width: 85px;
+    }
+    .subscribe_box {
+        max-width: 430px;
+    }
+    .sub_btn{
+        min-width: 140px;
+    }
+    .closebuy_info_section {
+        padding-top: 60px;
+    }
+    /*********************  header CSS End  *********************/
+    
+    /*********************  Awesome Feature Section CSS Start *********************/
+    .section_title h2 {
+        font-size: 42px;
+    }
+    .right_mobile_img  img {
+        max-width: 320px;
+    }
+    .awsome_shadow {
+        max-width: 200px;
+        right: -95px;
+        top: -80px;
+    }
+    .awsome_feature_inner_section > p{
+        font-size: 15px;
+    }
+    .awsome_secure_mobile_img img{
+        width: 100%;
+    }
+    .awsome_info a {
+        font-size: 18px;
+    }
+    .awsome_info p{
+        margin-top: 4px;
+    }
+    .awsome_left_img{
+        min-width: 55px;
+        height: 55px;
+    }
+    .awsome_secure_mobile_img:after {
+        width: 160px;
+        height: 160px;
+        right: -30px;
+    }
+    .awsome_secure_mobile_img:before {
+        width: 80px;
+        height: 80px;
+    }
+    /*********************  Awesome Feature Section CSS End  *********************/
+
+    /*********************  Footer wrapper Section CSS Start *********************/
+    .footer-wrapper {
+        padding: 150px 0 0;
+    }
+    .footer_info ul {
+        padding: 20px 0 0;
+    }
+    .awsome_feature_section{
+        padding: 80px 0 100px;
+    }
+    .footer_details_section {
+        padding-bottom: 30px;
+    }
+    .footer_info ul li a {
+        font-size: 15px;
+    }
+    .socail_icon li a i {
+        font-size: 20px;
+    }
+    .footer_circle {
+        width: 80px;
+        height: 80px;
+        left: 80px;
+    }
+    .insta_icon {
+        width: 20px;
+        height: 20px;
+        top: -2px;
+    }
+    .subscribe_box input{
+        padding: 10px 160px 10px 20px;
+    }
+    /*********************  Footer wrapper Section CSS End *********************/
+
+}
+@media screen and (max-width: 991px) {
+    /*********************  header CSS Start  *********************/
+    .menu-main a img {
+        max-width: 75px;
+    }
+    .menu-main{
+        position: relative;
+        z-index: 101;
+    }
+    .menu .show{
+        left: 0%;
+    }
+    .menu_inner{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 0px;
+        left: -100%;
+        width: 100%;
+        background-color: #131330;
+        text-align: center;
+        height: 100vh;
+        z-index: 1;
+        align-items: center;
+        justify-content: center;
+        -webkit-transition: all 0.5s ease 0s;
+        -moz-transition: all 0.5s ease 0s;
+        -ms-transition: all 0.5s ease 0s;
+        -o-transition: all 0.5s ease 0s;
+        transition: all 0.5s ease 0s;
+    }
+    .menu_inner li{
+        display: inline-block;
+        justify-content: center;
+        padding: 15px 0;
+        margin: 0px;
+        min-width: 140px;
+        text-align: center;
+    }
+    #toggle{
+        display: block;
+    }
+    header  .menu_inner > li {
+        transform: translateX(-100vw);
+        transition: all 0.3s ease-in-out;
+    }
+    header .menu_inner > li.open {
+        transform: translateX(0);
+    }
+    header .menu_inner > li:nth-child(1) {
+        transition-delay: 0.25s;
+    }
+    header .menu_inner > li:nth-child(2) {
+        transition-delay: 0.35s;
+    }
+    header .menu_inner > li:nth-child(3) {
+        transition-delay: 0.45s;
+    }
+    header .menu_inner > li:nth-child(4) {
+        transition-delay: 0.55s;
+    }
+    header .menu_inner > li:nth-child(5) {
+        transition-delay: 0.65s;
+    }
+    .closebuy_inner_section .row{
+        flex-direction: column-reverse;
+    }
+    .right_mobile_section{
+        justify-content: center;
+        padding-right: 0;
+    }
+    .right_mobile_img  img {
+        max-width: 230px;
+    }
+    .right_mobile_img:before {
+        width: 140px;
+        height: 140px;
+    }
+    .right_mobile_img:after {
+        width: 50px;
+        height: 50px;
+        bottom: 125px;
+        left: -20px;
+    }
+    .closebuy_info_section {
+        padding-top: 20px;
+    }
+    .closebuy_info_section h1 {
+        font-size: 42px;
+    }
+    .closebuy_info_section h1 br{
+        display: none;
+    }
+    .home_banner_section {
+        background-position: center;
+    }
+    .home_banner_section {
+        padding: 120px 0 205px;
+    }
+    .closebuy_info_section p{
+        font-size: 15px;
+    }
+    .closebuy_info_section p {
+        font-size: 15px;
+        margin: 10px 0 25px;
+    }
+    /*********************  header CSS End  *********************/
+
+    /*********************  Awesome Feature Section CSS Start *********************/
+    .awsome_feature_section {
+        padding: 0px 0 40px;
+        margin-top: -30px;
+    }
+    .section_title h2 {
+        font-size: 36px;
+    }
+    .awsome_feature_inner_section > p br{
+        display: none;
+    }
+    .awsome_feature_2{
+        order: 0;
+    }
+    .awsome_feature_1,
+    .awsome_feature_3{
+        order: 1;
+        margin-top: 70px;
+    }
+    .awsome_secure_mobile_img{
+        max-width: 230px;
+        margin: 0 auto;
+    }
+    .awsome_feature_inner_section > p {
+        margin: 15px 0 50px;
+    }
+    .awsome_shadow {
+        max-width: 170px;
+        right: -80px;
+        top: -70px;
+    }
+    .awsome_info p{
+        font-size: 14px;
+    }
+    .awsome_info a {
+        font-size: 17px;
+    }
+    .awsome_secure_date_section + .awsome_secure_date_section {
+        margin-top: 50px;
+    }
+    /*********************  Awesome Feature Section CSS End  *********************/
+
+    /*********************  Footer wrapper Section CSS Start  *********************/
+    .footer_circle {
+        width: 70px;
+        height: 70px;
+        left: 60px;
+    }
+    .footer_heading h3 {
+        font-size: 18px;
+    }
+    .footer_info ul li + li {
+        margin-top: 7px;
+    }
+    .footer_info ul {
+        padding: 15px 0 0;
+    }
+    .footer_details_section {
+        padding-bottom: 20px;
+    }
+    .copy_right_section p{
+        font-size: 15px;
+    }
+    /*********************  Footer wrapper Section CSS End *********************/
+
+}
+@media screen and (max-width: 767px) {
+    /*********************  header CSS Start  *********************/
+    .menu-main a img {
+        max-width: 70px;
+    }
+    .closebuy_info_section h1 {
+        font-size: 32px;
+    }
+    .subscribe_box {
+        max-width: 400px;
+    }
+    .sub_btn {
+        min-width: 130px;
+    }
+    .sub_btn {
+        font-size: 15px;
+    }
+    .right_mobile_img  img {
+        max-width: 200px;
+    }
+    .right_mobile_img:after {
+        width: 40px;
+        height: 40px;
+        bottom: 75px;
+        left: -18px;
+    }
+    .right_mobile_img:before {
+        width: 100px;
+        height: 100px;
+    }
+    .closebuy_info_section p {
+        font-size: 14px;
+    }
+    .home_banner_section {
+        padding: 110px 0 185px;
+    }
+    /*********************  header CSS End  *********************/
+
+    /*********************  Awesome Feature Section CSS Start  *********************/
+    .awsome_feature_section {
+        padding: 0px 0 0px;
+        margin-top: -50px;
+    }
+    .awsome_shadow {
+        max-width: 150px;
+        right: -60px;
+        top: -90px;
+    }
+    .section_title h2 {
+        font-size: 32px;
+    }
+    .awsome_secure_mobile_img {
+        max-width: 200px;
+    }
+    .awsome_secure_mobile_img:after {
+        width: 130px;
+        height: 130px;
+        right: -30px;
+    }
+    .awsome_secure_mobile_img:before {
+        width: 70px;
+        height: 70px;
+    }
+    .awsome_secure_wrapper.awsome_secure,
+    .awsome_secure_wrapper {
+        justify-content: center;
+    }
+    .awsome_feature_3,
+    .awsome_secure_date_section + .awsome_secure_date_section {
+        margin-top: 30px;
+    }
+    .subscribe_box input{
+        padding: 10px 145px 10px 15px;
+    }
+    /*********************  Awesome Feature Section CSS End  *********************/
+
+    /*********************  Footer wrapper Section CSS Start *********************/
+    .footer_circle {
+        width: 60px;
+        height: 60px;
+        left: 50px;
+    }
+    .copy_right_section{
+        flex-direction: column;
+    }
+    .socail_icon{
+        margin-top: 20px;
+    }
+    .footer_details_section .col-md-3:nth-child(n+3){
+        margin-top: 30px;
+    }
+    .footer_info ul li + li {
+        margin-top: 5px;
+    }
+    .playstore_link li a img{
+        max-width: 160px;
+    }
+    .socail_icon li a i{
+        font-size: 24px;
+    }
+    .insta_icon{
+        width: 24px;
+        height: 24px;
+        top: -2px;
+    }
+    .insta_icon svg{
+        width: unset;
+        height: unset;
+    }
+    /*********************  Footer wrapper Section CSS End *********************/
+
+}
+@media screen and (max-width: 575px) {
+    /*********************  header CSS Start *********************/
+    .menu-main a img {
+        max-width: 60px;
+    }
+    .footer_circle {
+        width: 50px;
+        height: 50px;
+        left: 40px;
+        top: 30px;
+    }
+    .closebuy_info_section h1 {
+        font-size: 26px;
+        text-align: center;
+    }
+    .closebuy_info_section p{
+        text-align: center;
+    }
+    .subscribe_box{
+        margin: 0 auto;
+    }
+    .right_mobile_img  img {
+        max-width: 180px;
+    }
+    /*********************  header CSS End  *********************/
+
+    /*********************  Awesome Feature Section CSS Start *********************/
+    .awsome_feature_section {
+        margin-top: -40px;
+    }
+    .awsome_shadow {
+        max-width: 120px;
+    }
+    .awsome_left_img{
+        margin-top: 4px;
+    }
+    .awsome_info p{
+        max-width: 280px;
+    }
+    .awsome_feature_3, .awsome_secure_date_section + .awsome_secure_date_section {
+        margin-top: 23px;
+    }
+    /*********************  Awesome Feature Section CSS End  *********************/
+
+    /*********************  Footer wrapper Section CSS Start  *********************/
+    .copy_right_section {
+        padding: 15px 0;
+    }
+    /*********************  Footer wrapper Section CSS End *********************/
+
+}
+@media screen and (max-width: 450px) {
+    /*********************  header CSS Start *********************/
+    .closebuy_info_section h1{
+        font-size: 22px;
+    }
+    .subscribe_box input {
+        height: 45px;
+    }
+    .home_banner_section {
+        padding: 110px 0 165px;
+    }
+    .awsome_info p {
+        margin-top: 0px;
+    }
+    .awsome_left_img {
+        margin-top: 2px;
+    }
+    /*********************  header CSS End  *********************/
+
+    /*********************  Awesome Feature Section CSS Start *********************/
+    .section_title h2 {
+        font-size: 30px;
+    }
+    .awsome_feature_inner_section > p {
+        margin: 10px 0 40px;
+    }
+    /*********************  Awesome Feature Section CSS End  *********************/
+
+    /*********************  Footer wrapper Section CSS Start *********************/
+    .footer_circle {
+        width: 40px;
+        height: 40px;
+        left: 20px;
+        top: 45px;
+    }
+    .footer-wrapper {
+        padding: 130px 0 0;
+    }
+    .playstore_link li a img {
+        max-width: 140px;
+    }
+    .footer_heading h3 {
+        font-size: 17px;
+    }
+    .footer_info ul li a,
+    .copy_right_section p {
+        font-size: 14px;
+    }
+    .awsome_left_img {
+        min-width: 50px;
+        height: 50px;
+        margin-right: 13px;
+    }
+    .awsome_info a {
+        font-size: 16px;
+    }
+    .awsome_feature_3, .awsome_secure_date_section + .awsome_secure_date_section {
+        margin-top: 20px;
+    }
+    .awsome_feature_1{
+        margin-top: 60px;
+    }
+    .footer-wrapper{
+        margin-top: -15px;
+    }
+    /*********************  Footer wrapper Section CSS End *********************/
+    
+}
+@media screen and (max-width: 367px) {
+    .right_mobile_img  img {
+        max-width: 160px;
+    }
+    .awsome_secure_mobile_img {
+        max-width: 170px;
+    }
+    .awsome_secure_mobile_img:after {
+        width: 100px;
+        height: 100px;
+        bottom: -30px;
+    }
+    .awsome_secure_mobile_img:before {
+        width: 60px;
+        height: 60px;
+    }
+    .closebuy_info_section h1 {
+        font-size: 19px;
+    }
+    .section_title h2 {
+        font-size: 26px;
+    }
+    .footer-wrapper{
+        margin-top: -25px;
+    }
+    .playstore_link li a img {
+        max-width: 100%;
+    }
+    .sub_btn {
+        min-width: 100px;
+        font-size: 14px;
+    }
+}
