@@ -6,6 +6,7 @@ import Awsome_feature_img4 from '../assets/images/text-document.png';
 import Awsome_feature_img5 from '../assets/images/work.png';
 import Awsome_feature_img6 from '../assets/images/refresh.png';
 import awsome_mobile from '../assets/images/awsome_mobile.png';
+import awsome_shadow from '../assets/images/awsome_shadow.png';
 
 import Awsome_feature_wrap from './Awsome_feature_wrap';
 
@@ -15,6 +16,7 @@ const Awsome_feature_data_left = [
         Awsome_feature_img: Awsome_feature_img1,
         awsome_info_title: 'Secure Date',
         awsome_info_dec: 'Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry.',
+        data_wow_duration: '1.5s',
     },
     {
         id:'awsome_details2',
@@ -85,6 +87,7 @@ const Awsome_feature = (props) => {
                                                     Awsome_feature_img = {val.Awsome_feature_img}
                                                     awsome_info_title = {val.awsome_info_title}
                                                     awsome_info_dec = {val.awsome_info_dec}
+
                                                 />
                                             )
                                         })
@@ -123,7 +126,7 @@ const Awsome_feature = (props) => {
             </div>
 
             <div className="awsome_shadow">
-                <img src="../assets/images/awsome_shadow.png" alt="shadow" />
+                <img src={awsome_shadow} alt="shadow" />
             </div>
         </div>
     );

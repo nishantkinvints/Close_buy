@@ -21,7 +21,7 @@ const Homebanner = () => {
                         <div className="col-md-12 col-lg-6">
                             <div className="closebuy_info_section">
                                 <h1 className="wow fadeInUp"><span>CloseBuy:</span> is <br/> a discount app </h1>
-                                <p className="wow fadeInUp" data-wow-delay="0.5s">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                <p className="wow fadeInUp" data-wow-delay="1.5s">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                                 <div className="subscribe_box">
                                     <form>
                                         <input type="email" name="email" id="email" placeholder="Enter Your Email" onChange={emailIsvalid}/>
