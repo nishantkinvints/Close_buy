@@ -1,0 +1,640 @@
+
+/*********************  Default-CSS  *********************/
+html body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    line-height: 1.3;
+    color: #414042;
+    font-size: 14px;
+}
+.anim{
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -ms-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+
+a,
+div a:hover,
+div a:active,
+div a:focus,
+button {
+    text-decoration: none;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -ms-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+
+a,
+span,
+a:hover,
+a:active,
+button {
+    text-decoration: none;
+}
+
+*::after,
+*::before,
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a:focus, button:focus, input:focus, select:focus {
+    outline: none;
+}
+
+a:hover {
+    color: #000;
+}
+
+body .clearfix,
+body .clear {
+    clear: both;
+    line-height: 100%;
+}
+
+body .clearfix {
+    height: auto;
+}
+
+* {
+    outline: none !important;
+}
+
+li{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+p{
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+.common_btn{
+    border: none;
+    outline: none;
+    width: 290px;
+    padding: 14px 15px;
+    background-color: #82f4d3;
+    position: relative;
+    z-index: 1;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -ms-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+.common_btn:after{
+    content: ' ';
+    width: 100%;
+    height: 100%;
+    border: 2px solid #82f4d3;
+    position: absolute;
+    left: -10px;
+    bottom: -10px;
+    z-index: 0;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -ms-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+.common_btn span{
+    font-size: 25px;
+    color: #323237;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.common_btn:hover:after{
+    left: 0px;
+    bottom: 0px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+/*********************  Default-CSS close  *********************/
+.main_header_section {
+    padding: 50px 0 0;
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo p{
+    font-size: 26px;
+    color: #82f4d3;
+    font-weight: 600;
+    margin: 0;
+    margin-left: 15px;
+}
+.logo p span{
+    color: #27272b;
+}
+.inner_header{
+    display: flex;
+    justify-content: space-between;
+}
+#toggle {
+    width: 20px;
+    height: auto;
+    position: relative;
+    right: 0px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+#toggle div {
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -ms-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+    backface-visibility: hidden;
+}
+#toggle div:nth-child(2){
+    margin: 5px auto;
+}
+.toggle_circle{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -ms-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+    backface-visibility: hidden;
+    cursor: pointer;
+}
+.main_banner {
+    padding: 105px 0 50px;
+    background-color: #e9e9e9;
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+}
+.inner_home_banner {
+    max-width: 360px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 115px;
+}
+.main_title{
+    font-size: 150px;
+    color: #202123;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+.inner_home_banner .common_btn{
+    margin-left: auto;
+}
+.eshop_big_shose{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-47%, -47%);
+}
+.main_banner:after {
+    content: ' ';
+    position: absolute;
+    right: 0;
+    top: 0px;
+    -webkit-clip-path: polygon(41% 0, 100% 0, 100% 100%, 62% 100%);
+    clip-path: polygon(41% 0, 100% 0, 100% 100%, 62% 100%);
+    background-color: #82f4d3;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.social_icon{
+    position: fixed;
+    right: 42px;
+    bottom: 42px;
+}
+.social_icon ul{
+    display: flex;
+    flex-direction: column;
+}
+.social_icon ul li a{
+    width: 50px;
+    height: 50px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.social_icon ul li + li{
+    margin-top: 30px;
+}
+.social_icon ul li a i{
+    font-size: 22px;
+    color: #fff;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -ms-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+.social_icon ul li a:hover{
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.25);
+    background-color: #fff;
+}
+.social_icon ul li a:hover i{
+    color: #82f4d3;
+}
+.toggle_circle:hover{
+    background-color: #fff;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+.toggle_circle:hover #toggle div{
+    background-color: #82f4d3;
+}
+.nike_shose_img{
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eeeded;
+}
+.nike_shose_img_boder{
+    padding: 5px;
+    background-color: #fff;
+    box-shadow: 0px 5px 19px 1px rgba(223, 220, 220, 0.75);
+}
+.nike_air_section{
+    padding: 100px 0;
+}
+.inner_title{
+    font-size: 45px;
+    color: #000000;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 500;   
+}
+.common_dec{
+    font-size: 15px;
+    color: #888888;
+    max-width: 100%;
+    line-height: 2;
+}
+.common_small_btn{
+    width: 146px;
+    padding: 12px 15px;
+}
+.common_small_btn span{
+    font-size: 15px;
+}
+.common_btn:after{
+    bottom: unset;
+    top: -10px;
+}
+.common_btn:hover:after{
+    top: 0px;
+}
+.nike_content_center{
+    display: flex;
+    align-items: center;
+}
+.nike_shose_contain .common_dec{
+    margin: 20px 0 35px;
+}
+.nike_air_btn{
+    text-align: right;
+}
+.nike_content_center{
+    margin-left: -8.6%;
+}
+
+
+.product_img{
+    padding: 89px 15px;
+    display: flex;
+    justify-content: center;
+    background-color: #eeeded;
+}
+.product_list_title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+}
+.product_list_title h3{
+    font-size: 15px;
+}
+.product_list_title span{
+    color: #bbbbbb;
+}
+.product_price{
+    color: #999999;
+    font-size: 25px;
+}
+.popular_arrivals_inner_section .row{
+    margin-top: 70px;
+    margin-left: -25px;
+    margin-right: -25px;
+}
+.popular_arrivals_inner_section .row > div{
+    padding: 0 25px;
+}
+.product_price{
+    margin-top: 30px;
+} 
+.Pre_fall_collection_serction .common_dec{
+    max-width: 545px;
+    margin: 50px 0;
+}
+.Pre_fall_main_content{
+    display: flex;
+    align-items: center;
+}
+.pre_fall_girl_border{
+    padding: 8px;
+    background-color: #fff;
+}
+.pre_fall_girl_image{
+    background-color: #fde7ed;
+    padding: 15px 0 0;
+}
+.Pre_fall_collection_serction{
+    padding: 125px 0 210px;
+}
+.girls_after_layer{
+    position: relative;
+}
+.girls_after_layer:after{
+    content: ' ';
+    width: 293px;
+    height: 388px;
+    position: absolute;
+    right: -105px;
+    bottom: -105px;
+    background-color: #82f4d3;
+    z-index: -1;;
+}
+.thought_item_wrapper{
+    text-align: center;
+}
+.thought_item_wrapper .common_dec{
+    max-width: 830px;
+    margin: 45px auto 40px;
+}
+.carousel-control-prev{
+    width: auto;
+    left: -50px;
+}
+.carousel-control-next{
+    width: auto;
+    right: -50px;
+}
+.thought_main_slider .carousel-indicators{
+    display: none;
+}
+.thought_mens h4{
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #666666;
+}
+.thought_mens span{
+    font-size: 15px;
+    color: #51cda9;
+}
+.thought_main_slider .carousel-control-prev-icon {
+    background-image: url(https://img.icons8.com/ios/50/000000/long-arrow-left.png);
+}
+.thought_main_slider .carousel-control-next-icon {
+    background-image: url(https://img.icons8.com/ios/50/000000/long-arrow-right.png);
+}
+.thought_main_slider .carousel-control-prev-icon, 
+.thought_main_slider .carousel-control-next-icon{
+    width: 50px;
+    height: 50px;
+}
+.carousel-control-prev, .carousel-control-next{
+    opacity: 1;
+}
+.thought_main_slider{
+    background-color: #f8f8f8;
+    padding: 100px 0;
+}
+.latest_blog_item_wrapper p{
+    margin: 35px 0 0;
+}
+.latest_blog_slider{
+    padding: 100px 0 150px;
+}
+.latest_img{
+    position: relative;
+}
+.latest_img_border{
+    padding: 6px;
+    background-color: #fff;
+    margin-left: 85px;
+    max-width: 425px;
+}
+.latest_img:after{
+    content: ' ';
+    width: 266px;
+    height: 350px;
+    position: absolute;
+    right: -150px;
+    bottom: -145px;
+    background-color: #82f4d3;
+    z-index: -1;
+}
+.latest_btn{
+    text-align:right;
+    margin-top: 100px;
+}
+.bottom_list ul{
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+.bottom_list ul li{
+    width: 12px;
+    height: 12px;
+    background-color: #000;
+    border-radius: 50%;
+}
+.bottom_list ul li + li{
+    margin-left: 8px;
+}
+.bottom_list ul li.active{
+    background-color: #51cda9;
+}
+.bottom_list {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 200px;
+}
+.line_and_value > span{
+    width: 25px;
+    height: 2px;
+    background-color: #7f7f7f;
+    margin: 0 8px;
+    display: inline-block;
+}
+.slider_circle_border{
+    width: 25px;
+    height: 25px;
+    border: 5px solid #51cda9;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+.line_and_value,
+.slider_number_list{
+    display: flex;
+    align-items: center;
+}
+.slider_number_list p,
+.slider_number_list span{
+    font-size: 18px;
+    color: #181818;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+.slider_number_list span{
+    margin: 0 7px;
+}
+.latest_blog_slider_inner .carousel-control-prev, 
+.latest_blog_slider_inner .carousel-control-next{
+    display: none;
+}
+
+
+.footer_btn .common_btn.common_small_btn:after{
+    content: unset;
+}
+.footer_list ul li + li{
+    margin-top: 5px;
+}
+.footer_text{
+    font-size: 15px;
+    color: #888888;   
+}
+.footer_center_list{
+    display: flex;
+    justify-content: center;
+}
+.email_input_wrapper{
+    display: flex;
+    align-items: center
+}
+.email_input_wrapper input{
+    width: 100%;
+    height: 47px;
+    outline: none;
+    border: unset;
+    background-color: #fff;
+    color: #000;
+    padding: 10px 33px;
+    box-shadow: 0px 5px 23.75px 1.25px rgba(231, 231, 231, 0.75);
+    margin-right: 10px;
+}
+.email_input_wrapper input::placeholder{
+    color: #dddddd;
+}
+.footer_social_media ul{
+    display: flex;
+    margin: 0px;
+}
+.footer_social_media ul li + li{
+    margin-left: 37px;
+}
+.footer_social_media ul li a i{
+    color: #bbbbbb;
+    font-size: 20px;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -ms-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+.footer_social_media ul li a:hover i{
+    color: #82f4d3;
+}
+.email_input_wrapper{
+    margin: 35px 0 25px;
+}
+.copy_right_section{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0;
+    position: relative;
+}
+.copy_right_section:after{
+    content: ' ';
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 1px;
+    background-color: #eeeeee;
+}
+.footer_list_main{
+    padding: 50px 0;
+    position: relative;
+}
+.footer_list_main:after{
+    content: ' ';
+    width: 100%;
+    height: 1px;
+    background-color: #eeeeee;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.toggle_circle i{
+    font-size: 26px;
+    color: #fff;
+}
+.toggle_circle:hover i{
+    color: #000;
+}
+
+
+/* 
+    #82f4d3 
+    #e9e9e9
+*/
+
+/* 
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'EB Garamond', serif; 
+    font-family: 'Cormorant Garamond', serif;
+*/
